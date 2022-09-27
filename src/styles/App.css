@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html {
+  font-size: 16px;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 40%;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 10px #888888;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.card__quote {
+  font-size: 1.1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.card__author {
+  text-align: right;
+  font-size: 1.2rem;
+  font-family: "Dancing Script", cursive;
+}
+
+.btn-layer {
+  text-align: right;
+}
+
+.btn-layer-stl {
+  margin-top: 0.5rem;
+  border: none;
+  background-color: grey;
+  padding: 0.5rem 1rem;
+  border-radius: 25%;
+  color: white;
+}
